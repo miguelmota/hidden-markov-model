@@ -23,7 +23,7 @@ var HiddenMarkovModel = require('hidden-markov-model');
 
 var HMM = HiddenMarkovModel();
 
-HMM.setInitialStateVector([0.6, 0.4]); // Healhy, Fever
+HMM.setInitialStateVector([0.6, 0.4]); // 1. Healthy, 2. Fever
 
 HMM.setTransitionMatrix([
     // Heathly, Fever
@@ -32,7 +32,7 @@ HMM.setTransitionMatrix([
 ]);
 
 HMM.setEmissionMatrix([
-    // Normal, Cold, Dizzy
+    // 1. Normal, 2. Cold, 3. Dizzy
     [0.5, 0.4, 0.1], // Healthy
     [0.1, 0.3, 0.6]  // Fever
 ]);
