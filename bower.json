@@ -1,0 +1,26 @@
+{
+  "name": "hidden-markov-model",
+  "main": "hidden-markov-model.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/miguelmota/hidden-markov-model",
+  "authors": [
+    "Miguel Mota <miguelmota2@gmail.com>"
+  ],
+  "description": "Hidden Markov Models in JavaScript",
+  "keywords": [
+    "hidden",
+    "markov",
+    "model",
+    "HMM",
+    "chain",
+    "probability"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "license": "MIT"
+}
